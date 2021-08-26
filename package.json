@@ -1,0 +1,32 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "\"projekt\"",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextothgithub/testing-with-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextothgithub/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/alextothgithub/testing-with-jest#readme",
+  "dependencies": {
+    "geckodriver": "^1.22.3",
+    "selenium-webdriver": "*",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
